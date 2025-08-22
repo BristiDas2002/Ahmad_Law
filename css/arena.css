@@ -1,0 +1,71 @@
+html,body{margin: 0; padding: 0; font-family: "Cabin", sans-serif;}
+*{box-sizing: border-box;}
+
+
+.bg-vol{
+    color:#fc9928;;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.gy-font{
+    font-size: 20px;
+}
+
+.gy_bold{
+    font-weight: 900;
+     color: rgba(0, 0, 0, 0.747);
+     font-weight: bold;
+     text-decoration: none;
+}
+
+.gy_border{
+
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    text-decoration: none;
+    border: 2px solid orange;
+  background-color: transparent;
+  padding: 8px 20px;
+  color: #fc9928;
+  border-top-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.gy_border:hover{
+    background-color: #db7705;
+    color: aliceblue;
+   
+}
+
+.dol{
+
+    padding: 5px;
+}
+
+
+.gy_none{
+
+    text-decoration: none;
+}
+.gy_non{
+    text-decoration: none!important;
+}
+
+.gy_h{
+
+    text-align: center;
+
+}
+
+.huh::after{
+    bottom: 32px;
+    content: "";
+    display: block;
+    height: 3px;
+    left: 46%;
+    position: absolute;
+    background: #201f1f;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 9%;
+}
